@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<head>
+		<title>Outmaneuver</title>
+	</head>
+		<form class="form form-horizontal" action="/" method="post" role="form" name="person" enctype="multipart/form-data">
+			{{ form.hidden_tag() }}
+			{{ wtf.form_errors(form, hiddens="only") }}
+			<p>
+				<!-- Would really like the form elements to line up from a horizontal width perspective. -->
+				Upload Resume:<br>
+				{{ form.resume() }}
+				{% for error in form.resume.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}
+
+				Title:<br>
+				{{ form.title(size=100) }}
+				{% for error in form.title.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Industry:<br> 
+				{{ form.industry }}
+				{% for error in form.industry.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Company Type:<br>
+				{{ form.type }}
+				{% for error in form.type.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Size:<br> 
+				{{ form.size }}
+				{% for error in form.size.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Age:<br>
+				{{ form.age }}
+				{% for error in form.age.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br><br>
+
+				<!-- Would love to make the job history stuff below a form factory but
+				not essential right now. -->
+
+				Up to 3 Past Experiences:<br>
+				Company:<br>
+				{{ form.workplace1 }}
+				{% for error in form.workplace1.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Rating:<br>
+				{{ form.workrating1 }}
+				{% for error in form.workplace1.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Company:<br>
+				{{ form.workplace2 }}
+				{% for error in form.workplace2.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Rating:<br>
+				{{ form.workrating2 }}
+				{% for error in form.workplace2.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Company:<br>
+				{{ form.workplace3 }}
+				{% for error in form.workplace3.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				Rating:<br>
+				{{ form.workrating3 }}
+				{% for error in form.workplace3.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}<br>
+
+				<!-- This is where I'm testing the auto-complete code with no success -->
+				<div id="the-basics">
+  					<input class="typeahead" type="text" placeholder="States of USA">
+				</div>
+			</p>
+			<p><input type="submit" value="Submit" /></p>
+		</form>
+{% endblock %}

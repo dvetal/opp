@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<head>
+		<title>Outmaneuver</title>
+	</head>
+		<form action="/" method="post" name="person">
+			{{ form.hidden_tag() }}
+			<p>
+				Upload a file
+				Title:{{ form.title(size=100) }}<br>
+				{% for error in form.title.errors %}
+					<span style="color: red;">[{{ error }}]</span>
+				{% endfor %}
+			</p>
+			<p><input type="submit" value="Submit" /></p>
+		</form>
+{% endblock %}

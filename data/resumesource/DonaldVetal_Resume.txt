@@ -1,0 +1,61 @@
+﻿DON VETAL
+Berlin, Germany ▪ +49 157 51932937 ▪ donaldvetal@gmail.com
+ linkedin: https://www.linkedin.com/profile/view?id=43825690 ▪ github: https://github.com/dvetal
+  
+
+SUMMARY: Data Science and Management Practitioner
+Data Scientist possessing an exceptional ability to help senior executives, colleagues, and partners ask the right questions before building meaningful machine learning solutions. A proven business builder with over 9 years of experience designing and managing enterprise data environments that drive decision making. A proven and versatile manager who as managed several simultaneous data-oriented technology projects. 
+  
+
+KEY APPROACHES: Machine Learning, Probabilistic Optimization, Data Architecture and Engineering, IT Strategy and Portfolio Management, Operations Research, Data Management and Governance
+KEY DOMAIN EXPERTISE: Aerospace Industry, Design Chain Domain Expertise, Engineering Management. Chief Information Officer (CIO) Consultation, Business Development and Sales, Supply Chain Management
+KEY TECHNOLOGIES: Python, R, Hadoop, Pig, Hive, Scoop, SQL Server, Postgress, Mongo DB, Amazon Web Services, Django, OWL, SparQL, Excel  
+EXPERIENCE:
+DATA SCIENCE RETREAT: OUTMANUEVER PROJECT                                  Aug 2014 - Nov 2014
+Developed a recommendation engine from concept to product with the goal of providing users with recommendations for companies they might want to talk to or follow based upon their resume and the companies’ LinkedIn profiles. The challenge of the project was to provide recommendations of companies that may or may not have a job posted online at the time.  This capability is to be used by job seekers to identify potential opportunities before they end up displaying an ad for a job. Constructed a pipeline of data from the LinkedIn API and developed an unsupervised clustering and ranking algorithm.  Tools used included Python  Pandas, Numpy, NLTK, RE, Scikit-Learn, Django, Gensim, and others.
+SABEL SYSTEMS TECHNOLOGY / MBC: MANAGER, ANALYTICS        June 2006 - May 2014
+Managed 6 experienced consultants and a portfolio of up to $2M annually in consulting engagements. Develop, maintain, and execute the corporate approach to IT strategies that deliver value. Manage the full lifecycle of business development activities and partner relationships for DoD and DHS business opportunities.  Analyze, Architect, and provide clients advice in arenas such as big data, cloud, enterprise architecture strategy, data management, IT governance, capital planning, requirements management, and IT development methodologies.
+* Enterprise Architecture Corporate Solution Lead: Responsible for the development of the IT strategy, architecture, and governance practice.
+   * Created the corporate solution approach and marketing material for Enterprise Architecture.
+   * Responsible for the capture and management of several large IDIQ contracts within the federal government including EAGLE II, CIO-SP3, and GSA OASIS.
+   * Managed a pipeline of business opportunities cutting across DoD, DHS, and other federal agencies. Led the business capture lifecycle from inception to proposal development.
+* IT Health Services Consultation: Responsible for consultation to the presidentially mandated integrated program office.  Whose responsibility it is to refine medical record information sharing across the military and Veterans Affairs organizations. Primary responsibility was to grow company presence in the client space in areas of data strategy, modeling and simulation, and information assurance
+   * Assisted in baselining the current Military Health Service and Veterans Affairs network effectiveness through use of OPNET.
+* Air Force (AF) Enterprise Architecture Advisory Services: Consultation to the AF CIO office included strategy development for how the AF will manage architecture information and execute architectural governance across its multi-billion dollar set of capabilities including weapon systems, logistics capabilities, financial management systems, human resources, acquisition, development, intelligence, and other functions.
+   * Advised the AF Chief Information Officer on Architecture metadata management.
+   * Developed a new Enterprise Architecture compliance tool that significantly improved productivity.
+   * Conducted reviews of major command and weapon system and IT architectures including the F-22.
+* Security Cooperation ERP consultation:  Provide liaison services between the defense security cooperation agency (DSCA) and the AF. Reported directly to the DSCA CIO.
+   * Provided data architecture planning advice to the AF as they prepared to blueprint their functional and technical requirements in the integrated joint-level security cooperation ERP system.
+* AF CIO Commander’s Action Group Support: Managed consultation services to the AF CIO as the organization began developing a strategy for Cyber Warfare across the department.
+   * Assisted the AF CIO in shaping his role and developing his strategy for Cyber Warfare and Cyber Security during his tenure.
+* IT Strategy Consultation for AF Acquisition: Managed all consulting services as the lead data architect for Air Force Acquisition in a number of areas including governance, SOA framework development, and overall IT Strategy. Tripled the size of the client engagement over a three year period.
+   * Developed and executed the data strategy for the AF Acquisition Domain. An organization with 150 distinct IT systems and an annual operating budget of over $27M.
+   * Led the conceptualization and development of a web-based managed metadata environment that is exposing capability and information redundancies throughout the Acquisition community
+   * Authored the domain CIO strategic vision and led strategy development across the organization.
+   * Managed the business intelligence team to assist the Secretary of the AF in decision making.
+   * Developed departmental CIO governance practices that support development and decision making.
+   * Delivered recommendation to consolidate disparate hosting environments to a single hosting environment that resulted in reduced complexity and ultimately more efficient operations.
+   * Provided consultation on a series of upcoming technologies throughout the engagement.
+* Product Lifecycle Management (PLM) Strategy Development:  Managed services assisting the AF in development of a PLM vision, strategy and technical architecture.
+   * Developed executable acquisition and development strategy for PLM implementation across the AF
+   * Assisted in shaping the functional scope for several PLM pilots throughout the AF
+* Enterprise Resource Planning Implementation: Guided approximately 40 subject matter experts through the process of blueprinting a solution for a complex ERP implementation.
+   * Analyzed hundreds of tool capabilities across the three major software purchases made by the AF (Oracle, IFS, ClickCommerce).
+   * Analyzed supply chain processes using the Supply Chain Operations Reference (SCOR) model at both a macro and micro level during process redesign summits.
+   * Actively participated in ERP program change management 
+* Advance Planning and Scheduling Pilot: Developed and tested supply and demand algorithms within the Manugistics tool suite.  Modeled portions of the AF supply chain including reverse supply chain maintenance, repair, and overhaul operations.
+
+
+STOCK BUILDING SUPPLY: MANUFACTURING MANAGER IN TRAINING           June 2005 – June 2006
+Supervised two separate manufacturing lines with over 30 employees. Implemented process improvements to both the manufacturing and warehouse operations.  EDUCATION/ACCOLADES
+DATA SCIENCE RETREAT                                                                              Berlin, DE                                                                                              November 2014
+GENERAL ASSEMBLY: DATA SCIENCE                                                    Washington, DC                                                                                                        Aug 2014
+VIRGINIA POLYTECHNIC INSTITUTE AND STATE UNIVERSITY (VIRGINIA TECH)        Blacksburg, VA
+Bachelor of Science in Industrial and Systems Engineering        May 2005
+PALM BEACH COMMUNITY COLLEGE        West Palm Beach, FL
+Associate of Arts in Business        June 2002
+CERTIFIED SUPPLY CHAIN PROFESSIONAL (CSCP)        Arlington, VA
+        December 2009
+PROMOTED 4 TIMES IN A SPAN OF 4 YEARS.  
+INACTIVE SECRET CLEARANCE

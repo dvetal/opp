@@ -1,0 +1,110 @@
+ADRIANO WEIHMAYER ALMEIDA
+Curitiba, Brazil
+adrianowalmeida@gmail.com
+http://recommender.im
+I am a Business Intelligence professional that is searching to become a Data Science expert. With more than 6 years experience in BI implementation and support, 7 years managing support and implementation teams and more then 10 years working with IT, I am convinced that data can change the world, if properly used. As a multi-talented, polyglot, proactive, experienced professional winner of some internal innovation prizes I will probably be a good addition to your team.
+Technical Skills
+Like:   python, r, c++, web, machine-learning
+Experience
+August 2014 - Current Data Science Student – Data Science Retreat
+r, machine-learning, hadoop, python
+Besides the technical part including R, Python and Machine Learning libraries, Hadoop and its companions Hive and Pig, we learn Statistics and presentation and how to tell the data history. The courses ends with a final project that you can find in
+http://recommender.im
+June 2009 - May 2014 Senior BI Consultant – SEBRAE PR
+qlikview, plsql, python, database-design
+•Business Intelligence Manager of the team responsible for developing and maintaining SEBRAE's Qlikview reports, integrations and batches using PL/SQL •Business Analyst gathering other areas needs and translating them as IT projects •Project Management
+June 2006 - June 2009 Support Analyst, Oracle Retail Datawarehouse Consultant – Wipro
+etl, oracle, plsql, erp
+•   Responsible for implementation and migration analyses, issue tracking, client contact and customization development at Renner Oracle Retail Migration; •    Implementation analyses at Ricardo Eletro of the ORDW module. Ricardo Eletro is a big Brazilian retailer with more than 250 stores. •   GAP Analyses and Migration at Lojas Renner of the ORDW, OAllocation and OReSA from version 10 to 12. •  Helped to coordinate Oracle Retail Migration at Oxxo (Mexico) working closely with client to define old customizations to be migrated and new ones that needed to be done in the Merchandising System; •    Business analyses, need evaluation, GAP analysis, System implementation;
+•   Support to Oracle Retail ERP and its modules (Merchandising system, Data Warehouse, Allocation, Sales Audit);
+June 2006 - June 2009 Oracle Retail Consultant – Wipro
+etl, bash, oracle, plsql, erp
+•   Responsible for implementation and migration analyses, issue tracking, client contact and customization development at Renner Oracle Retail Migration; •    Implementation analyses at Ricardo Eletro of the ORDW module. Ricardo Eletro is a big Brazilian retailer with more than 250 stores. •   GAP Analyses and Migration at Lojas Renner of the ORDW, OAllocation and OReSA from version 10 to 12. •  Helped to coordinate Oracle Retail Migration at Oxxo (Mexico) working closely with client to define old customizations to be migrated and new ones that needed to be done in the Merchandising System; •    Business analyses, need evaluation, GAP analysis, System implementation;
+•   Support to Oracle Retail ERP and its modules (Merchandising system, Data Warehouse, Allocation, Sales Audit)
+September 2004 - June 2006 Support Analyst – ExxonMobil
+lotus-notes, vpn
+•Support to company’s employees located in South America, Central America and Coral Gables area (Miami); •Support to applications used by the company such as MS Office, Windows, Lotus Notes, VPN/RSA, SAP, etc; •Password reset for Windows, Lotus Notes, VPN/RSA, SAP, CRM, etc; •Status Board role keeping track of problems and working to solve it together with the appropriate level of support (L2 and L3);
+March 2004 - January 2005 Game Programmer – Continuum Entertainment
+c++, directx, visual-c++
+• Game and tools programming using Visual C++, Source Safe and DirectX • Participated on creation of a sound library using Ogg files that were used in our 3D demo game;
+October 2002 - March 2004 Game Programmer - intern – Continuum Entertainment
+c++, directx, visual-c++
+Intern • Game and tools programming using Visual C++, Source Safe and DirectX • Participated on creation of a sound library using Ogg files that were used in our 3D demo game;
+Education
+1998 - 2003 Bachelor - Electrical Engineering – Universidade Federal do Paraná
+Achieved a major in Electronic. The final project was a house automation system project proposal that would use a PIC controller paired with a computer program to control light and sound
+Projects & Interests
+August 2014 GitHub - 7z_on_array – https://github.com/AdrianoW/7z_on_array
+python
+Python library to unzip 7z files straight to numpy arrays
+Main programmer of this small library that unzip files from a 7z file directly into memory using bash integration
+July 2014 GitHub - BlackJack – https://github.com/AdrianoW/BlackJack
+python
+Small command line blackjack program just to show some programmings skills. It allows more than one user to play the game in the hot seat mode.
+All
+August 2014 - September 2014 GitHub - Kaggle – https://github.com/AdrianoW/Kaggle
+r, python, machine-learning
+Kaggle competitions analysis
+My solutions and analysis to Kaggle competitions.
+October 2014 GitHub - Stack Recommend - www.recommender.im – https://github.com/AdrianoW/stackrecommend
+python, scikit-learn, angularjs, flask, javascript
+Stack Recommender is a recommendation system for Stack Overflow. It is the portfolio project for the Data Science Retreat. On this repository you will find notebooks and some code used on the project.
+Single programmer, designer and data science
+Tools
+First Computer: Generic 486 PC
+Favorite Editor:    Sublime, pycharm, brackets
+ADRIANO WEIHMAYER ALMEIDA
+Curitiba, Brazil
+adrianowalmeida@gmail.com
+http://recommender.im
+I am a Business Intelligence professional that is searching to become a Data Science expert. With more than 6 years experience in BI implementation and support, 7 years managing support and implementation teams and more then 10 years working with IT, I am convinced that data can change the world, if properly used. As a multi-talented, polyglot, proactive, experienced professional winner of some internal innovation prizes I will probably be a good addition to your team.
+Technical Skills
+Like:   python, r, c++, web, machine-learning
+Experience
+August 2014 - Current Data Science Student – Data Science Retreat
+r, machine-learning, hadoop, python
+Besides the technical part including R, Python and Machine Learning libraries, Hadoop and its companions Hive and Pig, we learn Statistics and presentation and how to tell the data history. The courses ends with a final project that you can find in
+http://recommender.im
+June 2009 - May 2014 Senior BI Consultant – SEBRAE PR
+qlikview, plsql, python, database-design
+•Business Intelligence Manager of the team responsible for developing and maintaining SEBRAE's Qlikview reports, integrations and batches using PL/SQL •Business Analyst gathering other areas needs and translating them as IT projects •Project Management
+June 2006 - June 2009 Support Analyst, Oracle Retail Datawarehouse Consultant – Wipro
+etl, oracle, plsql, erp
+•   Responsible for implementation and migration analyses, issue tracking, client contact and customization development at Renner Oracle Retail Migration; •    Implementation analyses at Ricardo Eletro of the ORDW module. Ricardo Eletro is a big Brazilian retailer with more than 250 stores. •   GAP Analyses and Migration at Lojas Renner of the ORDW, OAllocation and OReSA from version 10 to 12. •  Helped to coordinate Oracle Retail Migration at Oxxo (Mexico) working closely with client to define old customizations to be migrated and new ones that needed to be done in the Merchandising System; •    Business analyses, need evaluation, GAP analysis, System implementation;
+•   Support to Oracle Retail ERP and its modules (Merchandising system, Data Warehouse, Allocation, Sales Audit);
+June 2006 - June 2009 Oracle Retail Consultant – Wipro
+etl, bash, oracle, plsql, erp
+•   Responsible for implementation and migration analyses, issue tracking, client contact and customization development at Renner Oracle Retail Migration; •    Implementation analyses at Ricardo Eletro of the ORDW module. Ricardo Eletro is a big Brazilian retailer with more than 250 stores. •   GAP Analyses and Migration at Lojas Renner of the ORDW, OAllocation and OReSA from version 10 to 12. •  Helped to coordinate Oracle Retail Migration at Oxxo (Mexico) working closely with client to define old customizations to be migrated and new ones that needed to be done in the Merchandising System; •    Business analyses, need evaluation, GAP analysis, System implementation;
+•   Support to Oracle Retail ERP and its modules (Merchandising system, Data Warehouse, Allocation, Sales Audit)
+September 2004 - June 2006 Support Analyst – ExxonMobil
+lotus-notes, vpn
+•Support to company’s employees located in South America, Central America and Coral Gables area (Miami); •Support to applications used by the company such as MS Office, Windows, Lotus Notes, VPN/RSA, SAP, etc; •Password reset for Windows, Lotus Notes, VPN/RSA, SAP, CRM, etc; •Status Board role keeping track of problems and working to solve it together with the appropriate level of support (L2 and L3);
+March 2004 - January 2005 Game Programmer – Continuum Entertainment
+c++, directx, visual-c++
+• Game and tools programming using Visual C++, Source Safe and DirectX • Participated on creation of a sound library using Ogg files that were used in our 3D demo game;
+October 2002 - March 2004 Game Programmer - intern – Continuum Entertainment
+c++, directx, visual-c++
+Intern • Game and tools programming using Visual C++, Source Safe and DirectX • Participated on creation of a sound library using Ogg files that were used in our 3D demo game;
+Education
+1998 - 2003 Bachelor - Electrical Engineering – Universidade Federal do Paraná
+Achieved a major in Electronic. The final project was a house automation system project proposal that would use a PIC controller paired with a computer program to control light and sound
+Projects & Interests
+August 2014 GitHub - 7z_on_array – https://github.com/AdrianoW/7z_on_array
+python
+Python library to unzip 7z files straight to numpy arrays
+Main programmer of this small library that unzip files from a 7z file directly into memory using bash integration
+July 2014 GitHub - BlackJack – https://github.com/AdrianoW/BlackJack
+python
+Small command line blackjack program just to show some programmings skills. It allows more than one user to play the game in the hot seat mode.
+All
+August 2014 - September 2014 GitHub - Kaggle – https://github.com/AdrianoW/Kaggle
+r, python, machine-learning
+Kaggle competitions analysis
+My solutions and analysis to Kaggle competitions.
+October 2014 GitHub - Stack Recommend - www.recommender.im – https://github.com/AdrianoW/stackrecommend
+python, scikit-learn, angularjs, flask, javascript
+Stack Recommender is a recommendation system for Stack Overflow. It is the portfolio project for the Data Science Retreat. On this repository you will find notebooks and some code used on the project.
+Single programmer, designer and data science
+Tools
+First Computer: Generic 486 PC
+Favorite Editor:    Sublime, pycharm, brackets

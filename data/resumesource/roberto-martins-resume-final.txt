@@ -1,0 +1,62 @@
+R. Bulhões de Carvalho 633 ap 901
+Rio de Janeiro RJ
+22081-000
+BrazilROBERTO BRUNO MARTINS (+5521)2287-8133 (Home)
+(+5521)99411-6317 (Cell)
+ bobbruno@gmail.com 
+SUMMARY• Worked over 20 years on Business Intelligence and Information Management, from developer to program manager in large global IT and management consulting companies;
+• Delivered analytic solutions using several integration tools (e.g. Powercenter, Datastage and coding), and analysis techniques (dashboards, reports, visualizations and statistical/quantitative analyses);
+• Complete, end-to-end BI software solution lifecycle experience, from governance and  strategy through engineering to operation, as well as ensuring design and implementation quality and performance gains;
+• Top contributor at global BI communities of practice.
+WORK EXPERIENCEInformation Services LeaderAnkyla Business Consulting1Nov 2010 – currentStarted the Information Management Services Offering at Ankyla Business Consulting: Analytics Strategy and Design, Data Governance, BI Program Management, Quality Assurance, Operations Improvement and BI Implementation.
+• Designed Master Data Management Solutions for Lojas Renner2 and Gafisa S.A.3; 
+• Responsible for a BI Delivery Program at the largest automotive company of Brasil (FIAT-Chrysler). Program Engagement Manager Hewlett-PackardAug 2009 – Oct 2010Delivered 5 projects and the overall Program Office for Vale4’s global BI program.
+• Managed relationship between Vale and HP with program Management, Information Management, Architecture and IT Operations teams, at executive and technical levels;
+• Managed a team of 20 people in 5 project teams, including hiring, mentoring and evaluating;
+• Negotiated priority conflicts and resource limitations, identified, communicated and managed progress, risks and other project status, tracking resolution and escalating as needed;
+• Improved project management, design, coding and testing standards, reducing turnaround time and improving solution quality.Business Information ManagerBritish American Tobacco BrazilFeb 2007 – Jul 2009Managed and improved the corporation’s information assets in support of Sales, Finance and Operations.
+• Reorganized the BI infrastructure and analytic applications, improving performance and availability;
+• Redesigned the BI Operations Service Agreement, ensuring that all analytic application Service Level Agreements were met and allowing a smooth transition to a new service provider;
+• Managed cross-functional teams in developing, maintaining and operating the BI environment;
+• Redefined and enforced the information solution design standards across all IT projects.BI Services Solutions LeaderIBMJan 2003 – Feb 2007Data architecture senior specialist for Latin America, technical liaison with global IBM Information Management Services, BI Services leader for the Industrial Sector.
+• Delivered BI services, identified opportunities, prepared, communicated and sold proposals for clients such as Gerdau5 and PETROBRAS, generating over US$3M/year of revenue;
+Top contributor to the global BI communities of practice on ETL, Data Architecture, BI Databases, BI Strategy and Roadmaps (recognized by the Global BI Leadership team);
+• Introduced new BI methodologies, tools, designs and technologies, through training, mentoring and quality assurance throughout Latin America;
+• Reviewed project solution designs and implementations to improve performance and apply best practices.BI Consultant/Consulting ManagerPricewaterhouseCoopersFeb 1994 – Dec 2002Designed and implemented BI solutions for some of the largest companies in Brazil and Argentina.
+• Created an accelerator library for BI projects, based on an innovative solution design that enabled the BI team to execute successfully on the plan to triple in size in 3 years;
+• Relocated for two years in Argentina to start the country’s BI practice. Managed BI projects for clients such as Nabisco and local telecommunication companies;
+• Engineered a BI system for Nabisco  Argentina that was recognized by their global CMO as the best in their operations worldwide;
+• Collaborated to the second version of the worldwide Business Intelligence methodology for PricewaterhouseCoopers.
+EDUCATIONRio de Janeiro, RJIBMeC2007 - 2011MBA in Business Management.
+• Graduate monograph: “The adaptive enterprise: the impact of recent evolution in data collection, analytic technologies and computational services in enterprise strategy and competitiveness.”Rio de Janeiro, RJFederal University of Rio de Janeiro1988 - 1994Bachelor of Mathematics in Computer Science: Double majors in Software Engineering and Systems Architecture.
+• Graduate coursework:  Calculus (partial derivatives) and artificial intelligence (neural networks).LANGUAGES • Fluent in Portuguese, English and Spanish ;
+• Basic French.
+TECHNICAL EXPERIENCECertifications• Project Management Professional (PMP), PMI Institute: 2007;
+• TOGAF 8 Enterprise Architect, The Open Group: 2008;
+• Neuro-Linguistic Programming (NLP) Practitioner: 2000;
+• Chen Style Tai Chi Chuan Instructor, since 2010.SKILLS AND TECHNOLOGIES• Proficient in data modeling,  data integration architecture, data governance, communication and presentation, customer relationship management, SOA;
+• Proficient in R, Python, SQL, Visual Basic, C, Database Development (Oracle and MySQL), PL/SQL, Unix shell script;
+• Working experience with Informatica Powercenter, IBM Datastage, SAP BusinessObjects, Microstrategy and Oracle Hyperion;
+• Knowledge of Java, C++, IBM Cognos and Qlikview.
+• Trained in Data Mining and Machine Learning Algorithms.
+1 www.ankyla.com.br, start-up by senior business consultants, delivers optimization and innovation to mid-level and large companies in Brazil, leveraging the experience and seniority of its team to ensure the quality and successful implementation of its solutions.
+2 www.lojasrenner.com.br, department store, second largest fashion retailer in Brazil (200+ sites).
+3 www.gafisa.com.br, Brazil-based homebuilding and real estate operations company.
+4 www.vale.com, global mining company with HQs in Brazil, leader in iron ore mining.
+5 www.gerdau.com.br, leading producer of long steel in the Americas.
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+
+ROBERTO BRUNO MARTINS
+
+
+
+
+
+
+

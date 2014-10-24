@@ -1,0 +1,500 @@
+cindustry,cname,cid
+Computer Software,Microsoft,1035
+Internet,Google,1441
+Semiconductors,Intel Corporation,1053
+Telecommunications,Alcatel-Lucent,1058
+Management Consulting,Deloitte,1038
+Biotechnology,Genentech,2276
+Hospital & Health Care,GE Healthcare,1016
+Pharmaceuticals,Pfizer,1185
+Cosmetics,Mary Kay Inc.,2835
+Apparel & Fashion,Under Armour,14140
+Sporting Goods,Nike,2029
+Supermarkets,Carrefour,3046
+Consumer Electronics,Apple,162479
+Consumer Goods,Unilever,1248
+Furniture,Herman Miller,164178
+Retail,Target,1512
+Entertainment,The Walt Disney Company,1292
+Gambling & Casinos,Caesars Entertainment Corporation,4210
+Food & Beverages,PepsiCo,1431
+Museums & Institutions,Smithsonian Institution,5875
+Banking,Bank of America,1123
+Insurance,State Farm,2381
+Financial Services,Merrill Lynch,1178
+Real Estate,"Keller Williams Realty, Inc.",2224
+Computer Software,SAP,1115
+Internet,Amazon,1586
+Semiconductors,Texas Instruments,1397
+Telecommunications,Huawei Technologies,3014
+Management Consulting,Booz Allen Hamilton,1403
+Biotechnology,Amgen,2068
+Hospital & Health Care,Abbott,1612
+Pharmaceuticals,AstraZeneca,1603
+Cosmetics,Avon,2614
+Apparel & Fashion,Levi Strauss & Co.,3137
+Sporting Goods,adidas,3748
+Supermarkets,Whole Foods Market,157353
+Consumer Electronics,Motorola,1066
+Consumer Goods,Procter & Gamble,1116
+Furniture,Steelcase,166153
+Retail,Walmart,2646
+Entertainment,Viacom,1884
+Gambling & Casinos,WMS Gaming,6067
+Food & Beverages,Nestle S.A.,1393
+Museums & Institutions,The Metropolitan Museum of Art,9800
+Banking,Credit Suisse,1284
+Insurance,Marsh,1874
+Financial Services,JPMorgan Chase & Co.,1068
+Real Estate,CBRE,2319
+Computer Software,SAS,1491
+Internet,LinkedIn,1337
+Semiconductors,Freescale Semiconductor,1959
+Telecommunications,AT&T,1052
+Management Consulting,McKinsey & Company,1371
+Biotechnology,Roche,1602
+Hospital & Health Care,Johnson & Johnson,1207
+Pharmaceuticals,GSK,1399
+Cosmetics,Natura,6309
+Apparel & Fashion,Tommy Hilfiger,5826
+Sporting Goods,adidas group,157242
+Supermarkets,SUPERVALU,2912
+Consumer Electronics,Sony,1252
+Consumer Goods,Kimberly-Clark,3439
+Furniture,Haworth,164136
+Retail,Starbucks,2271
+Entertainment,Electronic Arts (EA),1449
+Gambling & Casinos,Bally Technologies,8784
+Food & Beverages,The Coca-Cola Company,1694
+Museums & Institutions,Colonial Williamsburg Foundation,24385
+Banking,Rabobank,1970
+Insurance,MetLife,2213
+Financial Services,HSBC,1241
+Real Estate,Coldwell Banker,2037
+Computer Software,Symantec,1231
+Internet,Facebook,10667
+Semiconductors,AMD,1497
+Telecommunications,Avaya,1494
+Management Consulting,Capgemini Consulting,1075
+Biotechnology,Agilent Technologies,1526
+Hospital & Health Care,Kaiser Permanente,1550
+Pharmaceuticals,Novartis,1406
+Cosmetics,The Estée Lauder Companies Inc.,4059
+Apparel & Fashion,Oakley,7471
+Sporting Goods,DECATHLON,6150
+Supermarkets,Winn-Dixie,166949
+Consumer Electronics,Samsung Electronics,1753
+Consumer Goods,Kellogg Company,3922
+Furniture,Humanscale,15038
+Retail,Sears Holdings Corporation,1944
+Entertainment,"NBCUniversal, Inc.",1828
+Gambling & Casinos,Aristocrat,162514
+Food & Beverages,Safeway,3498
+Museums & Institutions,The Museum of Modern Art,11249
+Banking,ABN AMRO Bank N.V.,1173
+Insurance,Allstate,1835
+Financial Services,Wells Fargo,1235
+Real Estate,Coldwell Banker Residential Brokerage,2035
+Computer Software,CA Technologies,1372
+Internet,Yahoo,1288
+Semiconductors,Broadcom,3072
+Telecommunications,Ericsson,1060
+Management Consulting,The Boston Consulting Group,1784
+Biotechnology,Thermo Fisher Scientific (Life Technologies),2861
+Hospital & Health Care,UnitedHealth Group,1720
+Pharmaceuticals,Merck,1486
+Cosmetics,Coty,5058
+Apparel & Fashion,VF Corporation,4670
+Sporting Goods,Nike EMEA,2028
+Supermarkets,Lowes Foods,41004
+Consumer Electronics,LG Electronics,3503
+Consumer Goods,Whirlpool Corporation,2551
+Furniture,The HON Company,22364
+Retail,Best Buy,2127
+Entertainment,Time Warner Inc.,1000
+Gambling & Casinos,"The Venetian I The Palazzo, Resort Hotel & Casino I Las Vegas Sands Corp.",9464
+Food & Beverages,US Foods,166714
+Museums & Institutions,"Museum of Science and Industry, Chicago",19682
+Banking,Standard Chartered Bank,2235
+Insurance,Nationwide Insurance,2340
+Financial Services,American Express,1277
+Real Estate,RE/MAX,2208
+Computer Software,Adobe,1480
+Internet,Salesforce,3185
+Semiconductors,STMicroelectronics,1618
+Telecommunications,Nokia Networks,1069
+Management Consulting,ICF International,5742
+Biotechnology,Genzyme,3802
+Hospital & Health Care,Cardinal Health,2162
+Pharmaceuticals,Eli Lilly and Company,1663
+Cosmetics,L'Oréal,1662
+Apparel & Fashion,Ralph Lauren,4688
+Sporting Goods,New Balance,8274
+Supermarkets,Coborn's Inc.,141172
+Consumer Electronics,Sony Electronics,1253
+Consumer Goods,SC Johnson,4039
+Furniture,Art Van Furniture,29088
+Retail,The Home Depot,1534
+Entertainment,Sony Pictures Entertainment,1256
+Gambling & Casinos,BetVictor,16650
+Food & Beverages,Nestlé Waters North America,1395
+Museums & Institutions,Asia Society,19502
+Banking,BNP Paribas,1508
+Insurance,Liberty Mutual Insurance,2701
+Financial Services,J.P. Morgan,1067
+Real Estate,Realty Executives,6179
+Computer Software,VMware,2988
+Internet,Twitter,96622
+Semiconductors,ON Semiconductor,165308
+Telecommunications,Nokia,1070
+Management Consulting,"Strategy&, part of the PwC network (formerly Booz & Company)",224605
+Biotechnology,MedImmune,6169
+Hospital & Health Care,McKesson,1900
+Pharmaceuticals,Sanofi,1642
+Cosmetics,Beiersdorf,162679
+Apparel & Fashion,BCBGMAXAZRIAGROUP,8989
+Sporting Goods,Trek Bicycle Corporation,17224
+Supermarkets,BI-LO,18955
+Consumer Electronics,Bose Corporation,4030
+Consumer Goods,RB,3098
+Furniture,Ashley Furniture Industries,162547
+Retail,Walgreens,3589
+Entertainment,Walt Disney World,166865
+Gambling & Casinos,PokerStars,523098
+Food & Beverages,Campbell Soup Company,4513
+Museums & Institutions,National Trust for Historic Preservation,19683
+Banking,Royal Bank of Scotland,1730
+Insurance,Travelers,3088
+Financial Services,UBS,1214
+Real Estate,CENTURY 21®,3347
+Computer Software,HP Software,1024
+Internet,AOL,1258
+Semiconductors,Infineon Technologies,2148
+Telecommunications,Vodafone,1217
+Management Consulting,Huron Consulting Group,5751
+Biotechnology,Biogen Idec,3961
+Hospital & Health Care,Express Scripts,4969
+Pharmaceuticals,Bristol-Myers Squibb,1773
+Cosmetics,BeautiControl,12887
+Sporting Goods,Burton Snowboards,10996
+Supermarkets,"Lund Food Holdings, Inc.",75730
+Consumer Electronics,Panasonic USA,2610
+Consumer Goods,Reebok,4945
+Furniture,Sauder Woodworking,77014
+Retail,Macy's,2300
+Entertainment,Condé Nast,3308
+Gambling & Casinos,Rank Group,30063
+Food & Beverages,HEINEKEN,3131
+Museums & Institutions,The British Museum,24207
+Banking,Banco Santander,2873
+Insurance,AIG,1760
+Financial Services,GE Capital,1023
+Real Estate,Savills,9063
+Computer Software,OpenText,2709
+Internet,eBay Inc,1481
+Semiconductors,Marvell Semiconductor,3772
+Telecommunications,Sprint,1106
+Management Consulting,BearingPoint,1349
+Biotechnology,Centocor,1206
+Hospital & Health Care,Quest Diagnostics,4727
+Pharmaceuticals,CVS Health,4680
+Cosmetics,Revlon,165730
+Apparel & Fashion,Puma,165597
+Sporting Goods,Callaway Golf,8217
+Supermarkets,Hannaford Supermarkets,14966
+Consumer Electronics,Logitech,4328
+Consumer Goods,Newell Rubbermaid,157237
+Furniture,National Office Furniture,238725
+Retail,Gap Inc.,1677
+Entertainment,Ticketmaster,5097
+Gambling & Casinos,Holland Casino,9171
+Food & Beverages,SABMiller,4784
+Museums & Institutions,J. Paul Getty Trust,9430
+Banking,Société Générale,1691
+Insurance,Farmers Insurance,3240
+Financial Services,Northwestern Mutual,2445
+Real Estate,"Weichert, Realtors",166906
+Computer Software,MicroStrategy,3643
+Internet,Monster,1844
+Semiconductors,ASML,3894
+Telecommunications,Verizon Wireless,2696
+Management Consulting,PA Consulting Group,2547
+Biotechnology,Illumina,7513
+Hospital & Health Care,Cleveland Clinic,5656
+Pharmaceuticals,Novo Nordisk,2227
+Cosmetics,ORIFLAME COSMETICS,165341
+Apparel & Fashion,Quiksilver,10621
+Sporting Goods,Warrior Sports,86432
+Supermarkets,Groupe Casino,355329
+Consumer Electronics,Garmin International,9240
+Consumer Goods,Colgate Palmolive,2748
+Furniture,Spacesaver Corporation,56990
+Retail,Tesco PLC,3266
+Entertainment,Netflix,165158
+Gambling & Casinos,VGT,14841
+Food & Beverages,Coca-Cola Hellenic Bottling Company,5596
+Museums & Institutions,The Field Museum,16059
+Banking,U.S. Bank,2532
+Insurance,Humana,4257
+Financial Services,Fidelity Investments,1307
+Real Estate,Emaar,15006
+Computer Software,Intuit,1666
+Internet,Groupon,355611
+Semiconductors,Applied Materials,2018
+Telecommunications,BT,1182
+Management Consulting,RGP,4350
+Biotechnology,Dendreon,11299
+Hospital & Health Care,HCA,3626
+Pharmaceuticals,Quintiles,4057
+Cosmetics,Alberto Culver,162362
+Apparel & Fashion,C&A,53978
+Sporting Goods,Road Runner Sports,18592
+Supermarkets,D&S,33107
+Consumer Electronics,TomTom,166474
+Consumer Goods,General Mills,2822
+Furniture,KI,266421
+Retail,QVC,5419
+Entertainment,"Fox (Film, TV & Sports)",2074
+Gambling & Casinos,Boyd Gaming,21292
+Food & Beverages,Anheuser-Busch,4510
+Museums & Institutions,Tate,10686
+Banking,ICICI Bank,2967
+Insurance,Swiss Re,3845
+Financial Services,Capital One,1419
+Real Estate,Hines,164195
+Computer Software,Infor,1711
+Internet,GLG,163983
+Semiconductors,NXP Semiconductors,1088
+Telecommunications,T-Mobile,1392
+Management Consulting,Wipro Consulting,1314
+Biotechnology,Lonza: A Global Leader In Life Sciences,7462
+Hospital & Health Care,McKesson Health IT,1901
+Pharmaceuticals,Actavis plc,7534
+Cosmetics,Aveda,9857
+Apparel & Fashion,Brown Shoe Company,10111
+Sporting Goods,Remington Arms Company,77191
+Supermarkets,Tops Markets,519589
+Consumer Electronics,Bang & Olufsen,4742
+Consumer Goods,Amway,162395
+Furniture,Simmons Bedding Company,13010
+Retail,Marks and Spencer,4558
+Entertainment,PlayStation,1254
+Gambling & Casinos,Gamesys,40697
+Food & Beverages,Coca-Cola FEMSA,163134
+Museums & Institutions,Exploratorium,17041
+Banking,TD,2775
+Insurance,ACE Group,1269
+Financial Services,Citi,11448
+Real Estate,Howard Hanna Real Estate Services,36063
+Computer Software,JDA Software,3267
+Internet,Yelp,31517
+Semiconductors,SanDisk,4251
+Telecommunications,Amdocs,1539
+Management Consulting,Hitachi Consulting,4049
+Biotechnology,Dow AgroSciences,2564
+Hospital & Health Care,The Advisory Board Company,166346
+Pharmaceuticals,Celgene,8348
+Cosmetics,Elizabeth Arden,7993
+Apparel & Fashion,Lands' End,6083
+Sporting Goods,Mizuno USA,266020
+Supermarkets,Intermarché,164412
+Consumer Electronics,Dolby Laboratories,6229
+Consumer Goods,Hallmark Cards,4798
+Furniture,BoConcept,162753
+Retail,"Lowe's Companies, Inc.",4128
+Entertainment,Live Nation Entertainment,6593
+Gambling & Casinos,Lottomatica,24610
+Food & Beverages,MillerCoors,204489
+Museums & Institutions,California Academy of Sciences,20513
+Banking,Wells Fargo Home Mortgage,1237
+Insurance,WellPoint,2619
+Financial Services,Morgan Stanley,497017
+Real Estate,Douglas Elliman Real Estate,8363
+Computer Software,FactSet,163755
+Internet,PayPal,1482
+Semiconductors,Micron Technology,3690
+Telecommunications,BlackBerry,2828
+Management Consulting,Bain & Company,2114
+Biotechnology,Gilead Sciences,163993
+Hospital & Health Care,Siemens Healthcare,157241
+Pharmaceuticals,Takeda Pharmaceuticals,5482
+Cosmetics,Belcorp,14812
+Apparel & Fashion,Kate Spade & Company,5437
+Sporting Goods,BRG Sports,17671
+Supermarkets,Save Mart Supermarkets,2918
+Consumer Electronics,Toshiba,157301
+Consumer Goods,Wrigley,4283
+Furniture,Target Commercial Interiors,263674
+Retail,Loblaw Companies Limited,164756
+Entertainment,HBO,4749
+Gambling & Casinos,BCLC,29096
+Food & Beverages,H.J. Heinz Company,164197
+Museums & Institutions,Chicago Botanic Garden,31305
+Banking,ANZ,2437
+Insurance,"Coventry Health Care, an Aetna Company",5564
+Financial Services,Barclays Investment Bank,1421
+Real Estate,Long & Foster Companies,201108
+Computer Software,Virtusa,5140
+Internet,"Expedia, Inc.",2751
+Semiconductors,Qimonda,2147
+Telecommunications,AT&T Small Business,157238
+Management Consulting,Heidrick & Struggles,3975
+Biotechnology,"PerkinElmer, Inc.",4562
+Hospital & Health Care,Erasmus MC,7394
+Pharmaceuticals,Bayer,1893
+Cosmetics,LUSH FRESH HANDMADE COSMETICS North America,344707
+Apparel & Fashion,Calvin Klein,162866
+Sporting Goods,Pearl Izumi,6211
+Supermarkets,Defense Commissary Agency,42263
+Consumer Electronics,Belkin International,162683
+Consumer Goods,Mars Petcare,1547
+Furniture,La-Z-Boy,12250
+Retail,Aramark,2815
+Entertainment,Disney ABC Television Group,1299
+Gambling & Casinos,BetClic,202539
+Food & Beverages,Dr Pepper Snapple Group,231770
+Museums & Institutions,Nederlands Instituut voor Beeld en Geluid,30951
+Banking,SunTrust Bank,2692
+Insurance,AEGON Americas,3256
+Financial Services,Barclays,1426
+Real Estate,Irvine Company,7256
+Computer Software,Citrix,2641
+Internet,Walmart eCommerce,4192
+Semiconductors,GLOBALFOUNDRIES,241309
+Telecommunications,Nortel Networks,1092
+Management Consulting,A.T. Kearney,2196
+Biotechnology,Chr. Hansen A/S,5971
+Hospital & Health Care,Carestream,1517
+Pharmaceuticals,"Alcon, a Novartis company",5275
+Cosmetics,L'Occitane en Provence,164659
+Apparel & Fashion,BESTSELLER,7132
+Sporting Goods,Thule Group,16061
+Supermarkets,Fairway Market,248680
+Consumer Electronics,Amazon Lab126,208137
+Consumer Goods,Coca-Cola Enterprises,3182
+Furniture,Kimball International,9782
+Retail,IKEA Group,2743
+Entertainment,Technicolor,1141
+Gambling & Casinos,Stan James,53298
+Food & Beverages,Coca-Cola Amatil,163132
+Museums & Institutions,The Children's Museum of Indianapolis,21189
+Banking,RBC,1808
+Insurance,Aetna,2807
+Financial Services,New York Life Insurance Company,3432
+Real Estate,Sotheby's International Realty,166057
+Computer Software,Red Hat,3545
+Internet,Akamai Technologies,3925
+Semiconductors,"LSI, an Avago Technologies Company",164778
+Telecommunications,airtel,3583
+Management Consulting,Egon Zehnder,5652
+Biotechnology,Human Genome Sciences,9852
+Hospital & Health Care,Beth Israel Deaconess Medical Center,1659
+Pharmaceuticals,Boehringer Ingelheim,3235
+Cosmetics,Stila Cosmetics,43297
+Apparel & Fashion,The North Face,4667
+Sporting Goods,Brooks Running,26710
+Supermarkets,Bi-Lo Holdings,3267360
+Consumer Electronics,Pace,165375
+Consumer Goods,Henkel,258644
+Furniture,Teknion,14835
+Retail,Kohl's Department Stores,5749
+Entertainment,Warner Bros. Entertainment Group of Companies,2470
+Gambling & Casinos,Bet365,40163
+Food & Beverages,Olam International,14266
+Museums & Institutions,Science Museum of Minnesota,20471
+Banking,Union Bank,4375
+Insurance,Chartis,442494
+Financial Services,Bloomberg LP,2494
+Real Estate,K. Hovnanian Homes,8229
+Computer Software,Informatica,3858
+Internet,Myspace,2070
+Semiconductors,Cypress Semiconductor Corporation,3579
+Telecommunications,Time Warner Cable,2031
+Management Consulting,Navigant,4904
+Biotechnology,Biocon,162713
+Hospital & Health Care,DaVita Kidney Care,6487
+Pharmaceuticals,PPD,4430
+Cosmetics,Benefit Cosmetics,19295
+Apparel & Fashion,Kenneth Cole Productions,10829
+Sporting Goods,Specialized Bicycle Components,166083
+Supermarkets,Piggly Wiggly Carolina,411009
+Consumer Electronics,iRobot,9860
+Consumer Goods,Nestlé Purina North America,1396
+Furniture,Design Within Reach,9648
+Retail,L Brands,2250
+Entertainment,Lucasfilm,3815
+Gambling & Casinos,"Station Casinos, LLC",166147
+Food & Beverages,Schincariol,23625
+Museums & Institutions,Smithsonian Enterprises,5878
+Banking,CIBC,1826
+Insurance,Willis,3994
+Financial Services,"Ameriprise Financial Services, Inc.",3032
+Real Estate,ZipRealty,7982
+Computer Software,BMC Software,1597
+Internet,Vistaprint,8095
+Semiconductors,Altera,3864
+Telecommunications,Telstra,1636
+Management Consulting,Hay Group,5178
+Biotechnology,"EMD Serono, Inc.",4237
+Hospital & Health Care,Fresenius Medical Care,5978
+Pharmaceuticals,Baxter International Inc.,2371
+Cosmetics,Bare Escentuals,399162
+Apparel & Fashion,HUGO BOSS,164238
+Sporting Goods,Quality Bicycle Products,60539
+Supermarkets,"SMU S.A. (Unimarc, M10, Alvi ,Ok Market, Telemercados)",344969
+Consumer Electronics,TiVo,166454
+Consumer Goods,Novartis Consumer Health,1405
+Furniture,Kimball Office,346661
+Retail,Coach,5618
+Broadcast Media,"Nickelodeon - UK, CEE, Israel, Russia, Ukraine, Baltics & Australia",1885
+Gambling & Casinos,Mohegan Sun,13434
+Food & Beverages,Dunkin' Brands,163520
+Museums & Institutions,National Archives,22654
+Banking,HDFC Bank,164151
+Insurance,Zurich Insurance Company Ltd,2458
+Financial Services,Morgan Stanley Wealth Management,1351
+Real Estate,General Growth Properties,6612
+Computer Software,PTC,1935
+Internet,Pandora,26479
+Semiconductors,Maxim Integrated,4801
+Telecommunications,TELUS,1974
+Management Consulting,Spencer Stuart,157317
+Biotechnology,QIAGEN,8276
+Hospital & Health Care,Dana-Farber Cancer Institute,1657
+Pharmaceuticals,PAREXEL,4451
+Cosmetics,Kiehl's Since 1851,44489
+Apparel & Fashion,Boden,24463
+Sporting Goods,GRUPO SBF,134284
+Supermarkets,Supermercados Peruanos S.A.,331843
+Consumer Electronics,HARMAN International,6419
+Consumer Goods,Ferrero,5472
+Furniture,Ahrend,12367
+Retail,"The TJX Companies, Inc.",5121
+Entertainment,Cirque du Soleil,7673
+Gambling & Casinos,Sporting Index Group,35444
+Food & Beverages,Tastefully Simple,12104
+Museums & Institutions,Denver Museum of Nature & Science,32151
+Banking,Scotiabank,3139
+Insurance,AXA,2221
+Financial Services,Edward Jones,3677
+Real Estate,Toll Brothers,166471
+Machinery,Komatsu America Corp.,164623
+Mining & Metals,The De Beers Group of Companies,163392
+Oil & Energy,Hess Corporation,5458
+Shipbuilding,Polo dello Shipping,5340603
+Textiles,Kravet,103004
+Paper & Forest Products,Hollingsworth & Vose,30335
+Farming,"Olde Stone Orchard, LLC",1557717
+Primary/Secondary,Council Rock School District,37214
+Higher Education,Texas A&M University,4556
+Research,UMass Medical School,4512
+Military,"Professional Solutions, LLC",250091
+Executive Office,First Nonprofit Foundation,2753184
+Newspapers,GateHouse Media,26939
+Publishing,Hachette Filipacchi Media,5765
+Information Services,GRM Document Management,30361
+Environmental Services,EnergySolutions,24748
+Package/Freight Delivery,AIRCOM CARGO LOGISTICS LTD,5339322
+Consumer Services,American Laser Skincare,504216
+Transportation/Trucking/Railroad,Penske Truck Leasing,5756
+Airlines/Aviation,Jeppesen,164531

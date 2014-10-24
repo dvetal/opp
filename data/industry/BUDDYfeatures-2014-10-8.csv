@@ -1,0 +1,501 @@
+cindustry,cname,cid
+Warehousing,Kringloopwinkel De Waarde,5259463
+Airlines/Aviation,IndiGo (InterGlobe Aviation Ltd),91609
+Maritime,Nautic Global Group,2041265
+Information Technology & Services,Polaris Financial Technology Limited,205701
+Market Research,Market Force Information,30253
+Public Relations,Publicis Consultants,2821
+Nonprofit Organization Management,GS1 US,162205
+Fundraising,The Geared For Giving Campaign,5344205
+Program Development,IMPACT International Marketing,1757300
+Staffing & Recruiting,Veredus,13245
+Professional Training,karROX Technologies Ltd.,125177
+Venture Capital,Dubai International Capital,54860
+Political Organization,California Association of Health Plans,1383786
+Computer Games,Blue Castle Games,22030
+Electrical & Electronic Manufacturing,FLIR Systems,163847
+Online Publishing,Tradedoubler,166482
+Nanotechnology,Single Quantum,5290043
+Music,FeedbackLoop,2915530
+Logistics & Supply Chain,Brink’s,281590
+Computer & Network Security,Ixia Security Test Solutions,167137
+Wireless,"OnMobile Live, Inc.",6175
+Security & Investigations,Guardian Protection Services,24092
+"Health, Wellness & Fitness",Precor,17107
+Media Production,The E.W. Scripps Company,167254
+Animation,CandyAndGrim,5341227
+Commercial Real Estate,GPT Group,303034
+Capital Markets,Tobin Tao & Company,3014533
+Think Tanks,The Midmarket Institute,2625765
+Philanthropy,Charities Aid Foundation of America,2552263
+E-learning,Becta,162678
+Import & Export,Medteks Medikal Tekstil ithalat ihracat san ve tic.ltd.şti,5345365
+Mechanical or Industrial Engineering,"Elliott Group, Ebara Corp",29683
+Human Resources,O.C. Tanner,11540
+Business Supplies & Equipment,Ferramentas Gerais Com. Ind. S/A,355019
+Graphic Design,BR Graphic Design LLC,1218779
+International Trade & Development,Winrock International,19297
+Luxury Goods & Jewelry,Estenza,3738897
+Renewables & Environment,Wipro EcoEnergy,399495
+"Glass, Ceramics & Concrete",IPG Project,5308271
+Packaging & Containers,Constar International,28349
+Industrial Automation,Emerson Industrial Automation,101201
+Computer Software,Blackbaud,162724
+Internet,Rakuten Marketing,9866
+Semiconductors,Nova Measuring Instruments,11129
+Telecommunications,Claro Brasil,4569
+Management Consulting,The Highland Group,20839
+Biotechnology,Emergent BioSolutions,36024
+Hospital & Health Care,Boston Medical Center (BMC),7413
+Pharmaceuticals,Janssen-Ortho,1205
+"Health, Wellness & Fitness",Facials - Radiance Spa,5349643
+Apparel & Fashion,Helly Hansen,14649
+Sporting Goods,Bay Area Kitesurf,1766755
+Supermarkets,ADHRENA,5125398
+Consumer Electronics,Vestel,166795
+Consumer Goods,ITC Limited,619019
+Furniture,Landscape Brands,379928
+Retail,Pantaloon Retail India Ltd,9371
+Entertainment,Reel FX,10949
+Gambling & Casinos,Kambi Sports Solutions,1416736
+Food & Beverages,United Natural Foods,27837
+Museums & Institutions,Regionaal Genealogisch Centrum Midden-Nederlanden,5350016
+Banking,Zions Bank,6186
+Insurance,Birla Sun Life Insurance,11583
+Financial Services,ICAP,6256
+Real Estate,Boston Properties,162765
+Investment Banking/Venture,First Southwest Company,20425
+Investment Management,Artisan Partners,23184
+Building Materials,DT Group,38870
+Architecture & Planning,Foster + Partners,18625
+Aviation & Aerospace,Flight Refuelling Ltd,51903
+Automotive,IHS Automotive - Driven by Polk,165635
+Chemicals,Vertellus Specialties Inc.,569537
+Machinery,Xylem Water & Wastewater (Xylem Inc.),497371
+Mining & Metals,"Arch Coal, Inc.",40137
+Oil & Energy,EP ENERGY,163592
+Shipbuilding,HOST Marine Int. Trd. Ltd. Co.,5208723
+Utilities,Joulz,214853
+Textiles,ScotlandShop.com Tweed Fabirc,5340649
+Paper & Forest Products,Expera Specialty Solutions,5316806
+Railroad Manufacture,Professional Project Planning,5025022
+Farming,Revaho (Netafim),5323670
+Primary/Secondary,Ascend Learning Charter Schools,1181086
+Higher Education,Virginia Tech,166811
+Education Management,IMD business school,164323
+Research,Lund University,5077
+Military,Leading Points Corporation,2531908
+Government Administration,Rijksdienst voor Ondernemend Nederland (RVO.nl),724653
+Executive Office,Growth Essentials,5318473
+Law Enforcement,Intelligance & Syber Security,5248158
+Marketing & Advertising,Affinion Group,6209
+Newspapers,Investor's Business Daily,11970
+Publishing,CyberMedia,10274
+Information Services,The DATA Group of Companies,551899
+Environmental Services,Barr Engineering Co.,43844
+Package/Freight Delivery,DMM Network,5223275
+Civic & Social Organization,Downtown Miami & Brickell Chamber of Commerce,3177953
+Consumer Services,James Felton Keith Inc.,5319267
+Transportation/Trucking/Railroad,TTC,8686
+Warehousing,Mi dieta me mata,5226469
+Airlines/Aviation,Aeropuertos Argentina 2000,30608
+Maritime,A2SEA A/S,72297
+Information Technology & Services,Tata Technologies,6369
+Market Research,Ipsos ASI,4323
+Public Relations,Chandler Chicco Agency,13523
+Nonprofit Organization Management,Ashoka,9450
+Fundraising,The Development Committee,5324499
+Program Development,TECHService di G.Sassanelli,5346858
+Staffing & Recruiting,Paladin Consulting,12158
+Professional Training,The Training Associates,27835
+Venture Capital,"Blu Venture Investors, LLC",2808902
+Political Organization,Progressive Democrats,5337985
+Computer Games,Oberon Media,165273
+Electrical & Electronic Manufacturing,"Legrand, North America",44580
+Online Publishing,HealthCentral,38099
+Nanotechnology,جشنواره فناوری نانو,5249512
+Music,Maurer Management,2035853
+Logistics & Supply Chain,AIT Worldwide Logistics,24870
+Computer & Network Security,Omegapoint,37751
+Wireless,BridgeWave Communications,32279
+Security & Investigations,Cellebrite,100045
+"Health, Wellness & Fitness",Gaiam,163930
+Media Production,DataCenterDynamics,303117
+Animation,Sojo.pro ltd,5318598
+Commercial Real Estate,Rubicon Representation,2641156
+Capital Markets,ALGO Technologies Ltd,875110
+Think Tanks,Population Reference Bureau,1463992
+Philanthropy,Pottstown Area Health & Wellness Foundation,1535830
+E-learning,Waterford MediaWorks,18073
+Import & Export,ALCOLOCK France SAS,5341148
+Mechanical or Industrial Engineering,SEGULA Technologies,15633
+Human Resources,Live Connections,49620
+Business Supplies & Equipment,NEXT Lighting Corp.,3043221
+Graphic Design,Comando Suricato,5346494
+International Trade & Development,KOTRA,164631
+Luxury Goods & Jewelry,"Greene, Inc",1313396
+Renewables & Environment,United Solar Ovonic,45674
+"Glass, Ceramics & Concrete",SECRISA,5258251
+Packaging & Containers,Essel Propack Limited,374365
+Industrial Automation,"Beijer Electronics, Inc.",16100
+Computer Software,RedPrairie,5842
+Internet,MFG.com,15794
+Semiconductors,"CEVA, Inc.",11357
+Telecommunications,Orascom Telecom,6659
+Management Consulting,SMART Business Advisory and Consulting,166005
+Biotechnology,Silliker,41386
+Hospital & Health Care,VU medisch centrum,9068
+Pharmaceuticals,Nycomed Pharma,4486
+Cosmetics,Hi Impact Brows,5346015
+Apparel & Fashion,VF Imagewear,4666
+Sporting Goods,State Of Grace Workshop,5342932
+Supermarkets,OPEN 18HS,4986130
+Consumer Electronics,Haier Pakistan Pvt Ltd,748049
+Consumer Goods,Milwaukee Electric Tool,164989
+Furniture,Drum Works Furniture,5344759
+Retail,"Burlington Stores, Inc.",11240
+Entertainment,Palace Entertainment,30972
+Gambling & Casinos,Hive Poker,5322985
+Food & Beverages,Scottish and Newcastle,165885
+Museums & Institutions,Rack galerie - Annonces,5315809
+Banking,Abbey,3451
+Insurance,Erie Insurance Group,14576
+Financial Services,Chase Paymentech,5387
+Real Estate,Chicago Title Insurance Company,5976
+Investment Banking/Venture,"Seneca Holdings, LLC",2228959
+Investment Management,Amundi,732914
+Building Materials,Uralita,15515
+Architecture & Planning,Lionakis,40924
+Aviation & Aerospace,HARCO,68613
+Automotive,"Pittsburgh Glass Works, LLC",214466
+Chemicals,Haas TCM,44429
+Machinery,Kaeser Compressors,103779
+Mining & Metals,Hindalco Industries Limited,81855
+Oil & Energy,Talisman Energy Inc.,10840
+Shipbuilding,Naval DC,5171653
+Utilities,R.W. Beck,240191
+Textiles,Princesse Paradoxe,5325685
+Paper & Forest Products,Waterjet®: Water-based Inkjet Printable Facestocks,5283551
+Railroad Manufacture,t--Dl,3733979
+Farming,Collins Nets Ltd,5317486
+Primary/Secondary,Cooperativa REFLEXES,5341105
+Higher Education,INSEAD,5176
+Education Management,Data Science Retreat,4994026
+Research,Eduventures,24045
+Military,AECOM/AGS,1634323
+Government Administration,Ministerie van Financiën,201207
+Executive Office,Nouveau mouvement européen Suisse,5307446
+Law Enforcement,St. Marys Police Department,5197729
+Marketing & Advertising,CDK Digital Marketing,5397
+Newspapers,Trouw,7806
+Publishing,Sterling Publishing,22583
+Information Services,Bisnode,233636
+Environmental Services,TerraCycle,61003
+Package/Freight Delivery,İdeal Paketleme Sistemleri,5193159
+Civic & Social Organization,"The Harbour, Inc.",2562239
+Consumer Services,UUNow,3255961
+Transportation/Trucking/Railroad,Hyva,68520
+Warehousing,Prime Material Handling Equipment Limited,5202716
+Airlines/Aviation,Ryanair,16584
+Maritime,Spirit Yachts Ltd,5342274
+Information Technology & Services,MITRE,3848
+Market Research,IMS Research,639633
+Public Relations,Lift Consulting,69647
+Nonprofit Organization Management,Endeavor,301210
+Fundraising,Ingefred Juul Andersens legat,5313653
+Program Development,CCMASS,5339613
+Staffing & Recruiting,The Novo Group,166392
+Professional Training,Startup Institute,2634553
+Venture Capital,Fidelity Growth Partners Europe,875774
+Political Organization,Danske Byggecentre,5300097
+Computer Games,Avalanche Studios,17653
+Electrical & Electronic Manufacturing,AeroVironment,162322
+Online Publishing,Olive Media,206083
+Nanotechnology,"Soluciones para Fotónica, Materiales y Nanotecnología",5223024
+Music,Choral Arts Society of Washington,1298524
+Logistics & Supply Chain,GAC Group,16497
+Computer & Network Security,Safend,20050
+Wireless,Mojiva,218393
+Security & Investigations,Transcan Systems LLC,5054147
+"Health, Wellness & Fitness",MediFit Corporate Services,42874
+Media Production,Sky News Arabia,2200483
+Animation,One Minute Messenger,5297393
+Commercial Real Estate,Signature Associates Commercial Real Estate,95754
+Capital Markets,Rewire Holdings LLC,5326113
+Think Tanks,"CASIA, Center for Advanced Studies in Internationalization Processes in East Asia",5339619
+Philanthropy,BeyondMe,5344696
+E-learning,LearnZillion,2521513
+Import & Export,Davis worldwide LTD (Davis Produce),5326012
+Mechanical or Industrial Engineering,Bodycote,15485
+Human Resources,Quadrangle,5943
+Business Supplies & Equipment,TLC Office Systems,1191849
+Graphic Design,"ImageworX, Creative images & Visual Design",5343529
+International Trade & Development,ALLSTAR INDUSTRIES INC.,1522356
+Luxury Goods & Jewelry,Arte delle Dolomiti,5344718
+Renewables & Environment,Infinia Corporation,82463
+"Glass, Ceramics & Concrete",BRU-V,5224288
+Packaging & Containers,A-B-C Packaging Machine Corporation,2640609
+Industrial Automation,DTE (Detroit Tool & Engineering),1861546
+Computer Software,EFI,4303
+Internet,Tucows,166530
+Semiconductors,Magnum Semiconductor,19305
+Telecommunications,Rohde & Schwarz,7054
+Management Consulting,Vision Consulting,8422
+Biotechnology,Genomic Health,163973
+Hospital & Health Care,Christiana Care Health System,12907
+Pharmaceuticals,Almac Group,11440
+Cosmetics,Fragrâncias Opzione,5339534
+Apparel & Fashion,White Stuff,108878
+Sporting Goods,Skeye Sàrl,5328089
+Supermarkets,Pinheiro Supermercado,3782951
+Consumer Electronics,Peerless-AV,849802
+Consumer Goods,Oreck Corporation,39402
+Furniture,NMC-Design & Manufacture,5341701
+Retail,Landmark Group,26500
+Entertainment,SXSW,28042
+Gambling & Casinos,YAKAMIZER.COM,5290113
+Food & Beverages,popchips,375472
+Museums & Institutions,Praxis Exhibit Projects Network,5281767
+Banking,Banco Espírito Santo,162697
+Insurance,UPMC Health Plan,3462
+Financial Services,First Tennessee Bank,4504
+Real Estate,KETTLER,144177
+Investment Banking/Venture,CLEAN POWER CAPITAL LLC,3763592
+Investment Management,Unigestion,24168
+Building Materials,"Reliable Automatic Sprinkler Co., Inc. (The)",106900
+Architecture & Planning,NAC Architecture,33889
+Aviation & Aerospace,Dynamic Aviation,51684
+Automotive,US Auto Parts,126860
+Chemicals,Agrium,23501
+Machinery,Colfax Fluid Handling,283508
+Mining & Metals,Worthington Steel,12843
+Oil & Energy,Nexans,7543
+Shipbuilding,Marine Equipments Pellegrini S.r.l.,5114880
+Utilities,EPRI,163662
+Textiles,Pettinatura e ripettinatura Tessilmarket,5321708
+Paper & Forest Products,Intrabond ®,5249813
+Railroad Manufacture,Mecanizados Alfredo S.L,3516131
+Farming,Meadowmat wild flower turf,5308384
+Primary/Secondary,Pdeprofesores,5314415
+Higher Education,University of Cincinnati,157339
+Education Management,Maastricht School of Management,165060
+Research,Université de Genève,166637
+Military,"1 Day for the K.I.A., Inc.",5339213
+Government Administration,US Fish and Wildlife Service,13451
+Executive Office,Virtual Assistant Business Services,5277414
+Law Enforcement,Greenfield Police Department Massachusetts,5136792
+Marketing & Advertising,MRY,29473
+Newspapers,St. Louis Post-Dispatch,14829
+Publishing,IDG Communications (Australia),3733
+Information Services,D&B Deutschland GmbH,42025
+Environmental Services,Indaver,26125
+Package/Freight Delivery,Trade Shows & Special Events,5142331
+Civic & Social Organization,National Center for Victims of Crime,2053308
+Consumer Services,"Comfort Climate Service, LLC",2859121
+Transportation/Trucking/Railroad,V3 Transportation,3225275
+Warehousing,Racking Inspections,5181895
+Airlines/Aviation,Wayne County Airport Authority,45528
+Maritime,Sustainable cruise,5334984
+Information Technology & Services,Asurion,162563
+Market Research,AGB Nielsen Media Research,16374
+Public Relations,The Hoffman Agency,14339
+Nonprofit Organization Management,UNOPS,12578
+Fundraising,Fundz,5298034
+Program Development,Smartbytes ©,5323155
+Staffing & Recruiting,Beresford Blake Thomas,162691
+Professional Training,RAIN Group,1125639
+Venture Capital,xminus Partners GmbH,4974238
+Political Organization,Mark Dunec for Congress,5278437
+Computer Games,Outspark,60371
+Electrical & Electronic Manufacturing,Regal Beloit,56646
+Online Publishing,HyperVocal,1751557
+Nanotechnology,XPS Analysis (X-Ray Photoelectron Spectroscopy or ESCA),5160805
+Music,Symphony Number One,5348864
+Logistics & Supply Chain,FKI Logistex,8061
+Computer & Network Security,CrowdStrike,2497653
+Computer Software,Sage,2802
+Internet,Booking.com,11348
+Semiconductors,Spansion,5706
+Telecommunications,Orange,1110
+Management Consulting,Roland Berger Strategy Consultants,3950
+Biotechnology,Ventana Medical Systems,8574
+Hospital & Health Care,Cincinnati Children's Hospital Medical Center,163049
+Pharmaceuticals,Bayer HealthCare,1894
+Cosmetics,Maesa,340254
+Apparel & Fashion,Vans,166767
+Sporting Goods,K2 Sports,12718
+Supermarkets,Tigros S.p.A.,5337854
+Consumer Electronics,Moser Baer India Ltd,31906
+Consumer Goods,SendOutCards,9913
+Furniture,One Workplace,22096
+Retail,REI,165697
+Entertainment,Warner Home Video,2472
+Gambling & Casinos,Pinnacle Entertainment,21393
+Food & Beverages,South African Breweries,4785
+Museums & Institutions,Philadelphia Museum of Art,165460
+Banking,La Caixa,7848
+Insurance,Aflac,3997
+Financial Services,First Data Corporation,2020
+Real Estate,Lennar,164711
+Investment Banking/Venture,VTB Capital,211278
+Investment Management,Ignis Asset Management,53135
+Building Materials,Tarmac,166256
+Architecture & Planning,EYP Inc.,26175
+Aviation & Aerospace,RC_ARINC,6517
+Automotive,Dana Holding Corporation,5089
+Chemicals,Chemtura Corporation,163007
+Machinery,STIHL Inc.,43296
+Mining & Metals,Gerdau Long Steel North America,8166
+Oil & Energy,Foster Wheeler,5547
+Shipbuilding,PERITAJES JUDICIALES,5321548
+Utilities,EDF Energy,7480
+Textiles,Croscill,112920
+Paper & Forest Products,APRIL,10022
+Railroad Manufacture,Republic Locomotive,5269045
+Farming,Court Farm Shop,5348829
+Primary/Secondary,Peel District School Board,13928
+Higher Education,University of Pennsylvania,3165
+Education Management,Colorado Technical University,16851
+Research,U.S. Geological Survey (USGS),7234
+Military,New Zealand Defence Force,14148
+Government Administration,U.S. Department of Labor,5697
+Executive Office,"HCM2020, LLC",2319799
+Law Enforcement,Cameron County District Attorney's Office,1922195
+Marketing & Advertising,TMP Worldwide,1843
+Newspapers,Lee Enterprises,13272
+Publishing,LibreDigital,265160
+Information Services,451 Research,20478
+Environmental Services,Trinity Consultants,19283
+Package/Freight Delivery,SmallDelivery,5319367
+Civic & Social Organization,Vancouver Board of Trade,45692
+Consumer Services,Stanley Steemer,28668
+Transportation/Trucking/Railroad,"U.S. Xpress, Inc.",10954
+Warehousing,Southern Storage & Transport,5294989
+Airlines/Aviation,US Airways,3797
+Maritime,ANL,43609
+Information Technology & Services,Sogeti,1956
+Market Research,MarketTools,6834
+Public Relations,The Glover Park Group,41291
+Nonprofit Organization Management,Amnesty International,162441
+Fundraising,Networking For Good,2402289
+Program Development,99ATS,2651640
+Staffing & Recruiting,AppleOne Employment Services,6088
+Professional Training,Intrepid Learning,12133
+Venture Capital,Index Ventures,14585
+Political Organization,Women's Campaign Fund,1029620
+Computer Games,Gearbox Software,19112
+Electrical & Electronic Manufacturing,National Instruments,3433
+Online Publishing,Thomas Publishing,10210
+Nanotechnology,Pectiv,5328086
+Music,PPL,206677
+Logistics & Supply Chain,Menlo Logistics,4871
+Computer & Network Security,Dell SecureWorks,9019
+Wireless,AdMob,24866
+Security & Investigations,Niscayah,208816
+"Health, Wellness & Fitness",Bally Total Fitness,7674
+Media Production,Bauer Media,218315
+Animation,Marza Animation Planet Inc.,1112664
+Commercial Real Estate,Cohen Financial,22042
+Capital Markets,"TransMarket Group, L.L.C.",381615
+Think Tanks,Definitive Resources,752140
+Philanthropy,1 Million Cups Organizer,3594261
+E-learning,GeoLearning,163975
+Import & Export,Universal L.L.C,230957
+Mechanical or Industrial Engineering,"Greene, Tweed & Co",203942
+Human Resources,Chandler Macleod Group,11957
+Business Supplies & Equipment,Oce Printing Systems,43080
+Graphic Design,Boston Media Design,2395333
+International Trade & Development,Millennium Challenge Corporation,422211
+Luxury Goods & Jewelry,Kering,165528
+Renewables & Environment,Renewable Energy Systems Americas Inc.,417715
+"Glass, Ceramics & Concrete",Texers Technical Ceramics,5340091
+Packaging & Containers,Consolidated Container Company,18151
+Industrial Automation,Motion Industries,19637
+Computer Software,HP Autonomy,4014
+Internet,Demand Media,10907
+Semiconductors,Atheros Communications,162572
+Telecommunications,Oi S.A,3721
+Management Consulting,"Buck Consultants, A Xerox Company",7992
+Biotechnology,Miltenyi Biotec,26033
+Hospital & Health Care,Sutter Health,166209
+Pharmaceuticals,Fresenius Kabi,9711
+Cosmetics,"Beauty Specialty Group, LLC",1822500
+Apparel & Fashion,Desigual,67845
+Sporting Goods,4id LLC,5016841
+Supermarkets,Voss Furs,5223754
+Consumer Electronics,InFocus,5360
+Consumer Goods,Cadbury Adams,2557
+Furniture,Upstanding Designs,5093951
+Retail,Giant Eagle,10080
+Entertainment,AMC Theatres,10486
+Gambling & Casinos,Hollywood Casino,13101
+Food & Beverages,ALI BIN ALI,151161
+Museums & Institutions,Jamestown-Yorktown Foundation,5136254
+Banking,Banco Safra,162631
+Insurance,Pacific Life,165380
+Financial Services,Freddie Mac,3140
+Real Estate,Equity Residential,163667
+Investment Banking/Venture,ThinkEquity LLC,12417
+Investment Management,SEDCO,165907
+Building Materials,Italcementi Group,11333
+Architecture & Planning,WD Partners,13701
+Aviation & Aerospace,StandardAero,20469
+Automotive,Oshkosh Corporation,165353
+Chemicals,Cognis,163140
+Machinery,Hexagon Metrology,17142
+Mining & Metals,OCP SA,165281
+Oil & Energy,Wood Group,9826
+Shipbuilding,MARINE and ENERGY SOLUTIONS DIV d.o.o.,5265911
+Utilities,SSE plc,12481
+Textiles,Bamboo Bed Linen -100% Bamboo,5347345
+Paper & Forest Products,MWV Rigesa,56757
+Railroad Manufacture,Solutions for Railway application,5155787
+Farming,Hydroserre inc.,5340405
+Primary/Secondary,Dulwich College Shanghai,1972437
+Higher Education,Yale University Careers,4071
+Education Management,Jefferson County Public Schools,18090
+Research,The University of Manchester,166652
+Military,"Innovative Reasoning, LLC",1341763
+Government Administration,Belastingdienst,162682
+Executive Office,Misty Frost Executive Services,5345864
+Law Enforcement,Discover Policing,5314533
+Marketing & Advertising,Goodby Silverstein & Partners,7313
+Newspapers,Epoch Times,85787
+Publishing,Triumph Learning,23870
+Information Services,EMSI,163620
+Environmental Services,"Apex Companies, LLC",67179
+Package/Freight Delivery,ExpressIt Delivery,5252807
+Civic & Social Organization,"Choose To Be Nice, LLC",5102561
+Consumer Services,Better Business Bureau - Dayton & Miami Valley,2074412
+Transportation/Trucking/Railroad,CN,307460
+Warehousing,Covama Eléctrica,5256445
+Airlines/Aviation,Air New Zealand,162347
+Maritime,International Maritime Security Corporation,1852913
+Information Technology & Services,"NTT Innovation Institute, Inc.",2008
+Market Research,Frank N. Magid Associates,22627
+Public Relations,HL Group,46692
+Nonprofit Organization Management,AIAA,31444
+Fundraising,Friends of Jordan River Village,5343799
+Program Development,customED,1753401
+Staffing & Recruiting,Talent2,166244
+Professional Training,Common Purpose,20775
+Venture Capital,The Founder Institute,1154695
+Political Organization,Associated Students of the University of California,1345848
+Computer Games,K2 Network,21222
+Electrical & Electronic Manufacturing,Belden Inc.,9034
+Online Publishing,Travelzoo,16062
+Nanotechnology,Resysten Hungary Ltd.,5289180
+Music,Hashtag Management,2899775
+Logistics & Supply Chain,Norbert Dentressangle USA (formerly Jacobson Companies),42662
+Computer & Network Security,ReD (Retail Decisions),17015
+Wireless,Wirkle Inc.,125389
+Security & Investigations,DVTEL,163527
+"Health, Wellness & Fitness",HealthSmart,134799
+Media Production,FUJIFILM Manufacturing Europe B.V.,425011
+Animation,subMachinestudio,5338174
+Commercial Real Estate,DBSI,51362
+Capital Markets,Ceres Ltd,2878005
+Think Tanks,Technology Business Management Council,2599010
+Philanthropy,Tierra del Sol Foundation,2496903
+E-learning,Tutor.com,16561
+Import & Export,Evacuator,5345059
