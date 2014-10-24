@@ -346,24 +346,23 @@ def run_master_ranker(person, history):
 
     return result
 
-some_person = {
-            'title': 'Project Manager',
-            'age': 3,
-            'industry': 'Architecture & Planning',
-           'size': 3,
-            'resume': 'data/resume/Resume_Amy_Vetal.txt',
-            'type': 1
-        }
-some_history = [{'company': 'Corgan','rating': 5},
-                {'company': 'Boozie','rating': 5},
-                ]
+#some_person = {
+#            'title': 'Project Manager',
+#            'age': 3,
+#            'industry': 'Architecture & Planning',
+#           'size': 3,
+#            'resume': 'data/resume/Resume_Amy_Vetal.txt',
+#            'type': 1
+#        }
+#some_history = [{'company': 'Corgan','rating': 5},
+#                {'company': 'Boozie','rating': 5},
+#                ]
 #ADRIANO.WEIHMAYER.ALMEIDA.txt
 #Resume_Amy_Vetal.txt
 
 #some_history = [{'company': 1123, 'rating': 4}, {'company': 5349578, 'rating': 5}]
-result = run_master_ranker(person= some_person, history = some_history)
-print 'done'
-result.rank
+#result = run_master_ranker(person= some_person, history = some_history)
+#print 'done'
 
 
 
