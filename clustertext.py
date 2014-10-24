@@ -31,7 +31,7 @@ class Career():
         self.num_clusters = clusters
         self.__normalize()
 
-        normalized_array = np.array(self.company.iloc[:,2:-1])
+        normalized_array = np.array(self.company.iloc[:,2:16])
 
         hyperparameters = cluster.KMeans(n_clusters = clusters, init = init, n_init = n_init, max_iter = max_iter)
         #print "Hyper-parameters have been set"
@@ -125,6 +125,7 @@ class Career():
         Calculates the top N best matches for a user and returns a dataframe with the company information.
         '''
         #Based upon the cid's of a person's work history, determine what cluster they belong to.
+        history_cluster = []
         for index in range(len(self.job_history)):
             try:
                 history_cluster = list(self.distance.cluster[self.distance['cid'].isin(zip(*self.job_history)[0])]
@@ -150,7 +151,7 @@ class Career():
         raw_distance_score[np.isinf(raw_distance_score)] = 999.0
 
         #Here I am adding some power to the historical weight.  It is at lease as strong as the mean distance values
-        hist_weight_final = hist_weight * dist_weight * raw_distance_score[1:].max()
+        hist_weight_final = hist_weight * dist_weight * raw_distance_score[1:].max() / 2
 
         #add both the history and distance scores together to get a final score.
         #if the user did not enter a company this will error.  the try except takes care of avoind that.
@@ -164,7 +165,7 @@ class Career():
 
 
         self.rank = self.distance.sort('total_score', ascending = False)[1:top+1]
-        linkedin = map(lambda x: 'https://www.linkedin.com/company/' + str(x), self.rank['cid'])
+        linkedin = map(lambda x: 'https://www.linkedin.com/company/' + str(int(x)), self.rank['cid'])
         self.rank['LinkedIn'] = linkedin
 
     def normalize_score_on_job(self, top = 5):
@@ -303,27 +304,41 @@ def run_master_ranker(person, history):
     p_phase_2_final = pd.concat([p_phase_1.iloc[:,0:2], p_phase_2], axis=1)
 
     person_phase_1 = Career(company=c_phase_1, person=p_phase_1, job_history=j)
-    #person_phase_1.run_cluster_kmeans(clusters = 40)
+
     config = eval(open('industry_config.py').read())
     person_phase_1.get_distance(industry_config=config, phase=1, w_cdesc=0, w_cspec=0, w_cindustry=5, w_jdesc=0,
-                           w_jtitle=0, w_ctype=1, w_age=2, w_csize=2)
+                                w_jtitle=0, w_ctype=1, w_age=2, w_csize=2)
+    #person_phase_1.run_cluster_kmeans(clusters=100)
     person_phase_1.get_clusters()
-    person_phase_1.run_rank(hist_weight = 1, dist_weight=1, top = 100)
+    person_phase_1.run_rank(hist_weight=1, dist_weight=1, top=100)
 
     #Merge the 100 cids to cut down round 2 to only the top 500 companies.
     c_phase_2_final = c_phase_2_final[c_phase_2_final['cid'].isin(person_phase_1.rank['cid'])]
 
+    bleedover_distance = pd.DataFrame(person_phase_1.rank.distance * 50)
+    bleedover_person = pd.DataFrame(person_phase_1.rank.distance * 50)
+    c_phase_2_final = pd.concat([c_phase_2_final.iloc[:,0:2], bleedover_distance, c_phase_2_final.iloc[:,3:]], axis = 1)
+    p_phase_2_final = pd.concat([p_phase_2_final.iloc[:,0:2], bleedover_person, p_phase_2_final.iloc[:,3:]],
+                                axis=1)
+    p_phase_2_final['distance'] = 0.0
+    p_phase_2_final = p_phase_2_final[p_phase_2_final['cid'] == 9999999999]
     person_phase_2 = Career(company=c_phase_2_final, person=p_phase_2_final, job_history=j)
+
     #person_phase_2.run_cluster_kmeans(clusters = 10)
-    person_phase_2.get_distance(industry_config=config, phase=2, w_cdesc=1, w_cspec=0, w_cindustry=0, w_jdesc=3,
-                           w_jtitle=1, w_ctype=0, w_age=0, w_csize=0)
+    person_phase_2.get_distance(industry_config=config, phase=2, w_cdesc=8, w_cspec=0, w_cindustry=0, w_jdesc=10,
+                                w_jtitle=6, w_ctype=0, w_age=0, w_csize=0)
     top = 10
 
     #below grabs the defined clusters from the original clustering event and uses them for ranking in the second.
-    person_phase_2.distance['cluster'] = pd.merge(person_phase_1.distance[['cid','cluster']], person_phase_2.distance,
-                                                  on='cid')['cluster']
+    person_phase_2.distance['cluster'] = person_phase_2.distance.merge(person_phase_1.distance[['cid', 'cluster']],
+                                                                       on='cid', how='right')['cluster']
+    try:
+        for element in zip(*person_phase_2.job_history)[0]:
+            person_phase_2.distance = person_phase_2.distance[person_phase_2.distance['cid'] != element]
+    except:
+        pass
 
-    person_phase_2.run_rank(hist_weight = 0, dist_weight=1, top = top)
+    person_phase_2.run_rank(hist_weight=0, dist_weight=1, top=top)
     #person_phase_2.normalize_score_on_job(top = top)
     person_phase_2.rank['jobflag'][person_phase_2.rank['jobflag'] == 1] = "Position Available!"
     person_phase_2.rank['jobflag'][person_phase_2.rank['jobflag'] == 0] = ""
@@ -331,24 +346,24 @@ def run_master_ranker(person, history):
 
     return result
 
-#some_person = {
-#            'title': 'Data Scientist',
-#            'age': 2,
-#            'industry': 'Internet',
-#           'size': 2,
-#            'resume': 'data/resumesource/DonaldVetal_Resume.txt',
-#            'type': 1
-#        }
-#some_history = [{'company': 'Time Warner Inc.','rating': 1},
-#                {'company': 'Boozie','rating': 5},
-#                {'company': 'Novell', 'rating': 5}]
+some_person = {
+            'title': 'Project Manager',
+            'age': 3,
+            'industry': 'Architecture & Planning',
+           'size': 3,
+            'resume': 'data/resume/Resume_Amy_Vetal.txt',
+            'type': 1
+        }
+some_history = [{'company': 'Corgan','rating': 5},
+                {'company': 'Boozie','rating': 5},
+                ]
 #ADRIANO.WEIHMAYER.ALMEIDA.txt
 #Resume_Amy_Vetal.txt
 
 #some_history = [{'company': 1123, 'rating': 4}, {'company': 5349578, 'rating': 5}]
-#result = run_master_ranker(person= some_person, history = some_history)
-#print 'done'
-
+result = run_master_ranker(person= some_person, history = some_history)
+print 'done'
+result.rank
 
 
 
