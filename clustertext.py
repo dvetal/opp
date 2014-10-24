@@ -98,12 +98,6 @@ class Career():
         with open('data/models/fit.pickle', 'rb') as bit:
             self.fit = cPickle.load(bit)
 
-        try:
-            clusters = np.insert(self.fit.labels_, obj=0,values=0, axis=0)
-            distance_frame['cluster'] = clusters
-        except:
-            pass
-
         self.distance = distance_frame
 
         #added this back in so I can normalize distances between companies with jobs and those without
@@ -121,17 +115,20 @@ class Career():
         ############################################################
         self.distance = distance_frame
 
+    def get_clusters(self):
+        clusters = np.insert(self.fit.labels_, obj=0, values=0, axis=0)
+        self.distance['cluster'] = clusters
 
 
-    def run_rank(self, hist_weight=1, dist_weight=1, top = 5):
+    def run_rank(self, hist_weight = 1, dist_weight=1, top = 5):
         '''
         Calculates the top N best matches for a user and returns a dataframe with the company information.
         '''
         #Based upon the cid's of a person's work history, determine what cluster they belong to.
-        history_cluster = []
         for index in range(len(self.job_history)):
             try:
-                history_cluster.append(self.distance.cluster[self.distance['cid'] == self.job_history[index][0]].get_values()[0])
+                history_cluster = list(self.distance.cluster[self.distance['cid'].isin(zip(*self.job_history)[0])]
+                    .get_values())
                 self.history_clusters = history_cluster
             except:
                 continue
@@ -149,18 +146,23 @@ class Career():
         #get the scores for the distances a company is away from a person.
         raw_distance_score = np.array(map(lambda x: 1/x, self.distance.distance))
 
+        #if a record matches perfectly it will be NA.  this makes sure they get great scores!
+        raw_distance_score[np.isinf(raw_distance_score)] = 999.0
+
+        #Here I am adding some power to the historical weight.  It is at lease as strong as the mean distance values
+        hist_weight_final = hist_weight * dist_weight * raw_distance_score[1:].max()
+
         #add both the history and distance scores together to get a final score.
         #if the user did not enter a company this will error.  the try except takes care of avoind that.
         try:
-            total_score = dist_weight * raw_distance_score + hist_weight * history_score
+            total_score = dist_weight * raw_distance_score + hist_weight_final * history_score
         except:
             total_score = dist_weight * raw_distance_score
 
         #add total score to the distance dataframe.  So you get a score for each record.
         self.distance['total_score'] = total_score
 
-        #if a record matches perfectly it will be NA.  this makes sure they get great scores!
-        self.distance['total_score'][pd.isnull(self.distance['total_score'])] = 9999999999.99
+
         self.rank = self.distance.sort('total_score', ascending = False)[1:top+1]
         linkedin = map(lambda x: 'https://www.linkedin.com/company/' + str(x), self.rank['cid'])
         self.rank['LinkedIn'] = linkedin
@@ -209,7 +211,6 @@ class Career():
             for key in text_weight_dict:
                 matched_cols = [col for col in self.features.columns if key in col]
                 self.features[matched_cols] = self.features[matched_cols] * float(text_weight_dict[key])
-        print 'hello'
 
     def __normalize(self):
         array_for_normalization = np.array(self.company.iloc[:, 2:])
@@ -253,6 +254,18 @@ def loadFinalPersonData(persondata):
     with open(file_dict['job'], 'rb') as bit:
         job_history = cPickle.load(bit)
 
+    #below converts the company name that the user gives me into a cid for further rank processesing.  If the name does
+    #not exist then the record is removed via popped and not included in ranking
+    index = 0
+    while index < len(job_history):
+        try:
+            job_history[index][0] = company['cid'][company['cname'] == job_history[index][0]].values[0]
+            index += 1
+        except:
+            job_history.pop(index)
+
+    print job_history
+
     company.drop('index', 1, inplace=True)
     person = np.array(persondata).reshape(1, -1)
     person = pd.DataFrame(person, columns=company.columns)
@@ -276,7 +289,6 @@ def loadFinalPersonData(persondata):
 def run_master_ranker(person, history):
     person = rt.buildFullPersonFeatures(configfile='topic_config.py', person = person, history = history)
     c, p, j = loadFinalPersonData(persondata=person)
-    j = [[1123, 4], [5349578, 5]]
 
     #c phase 1 is just the basic company information not including the company description, specialties, job decriptions and title
     c_phase_2 = c.iloc[:,116:]
@@ -295,17 +307,23 @@ def run_master_ranker(person, history):
     config = eval(open('industry_config.py').read())
     person_phase_1.get_distance(industry_config=config, phase=1, w_cdesc=0, w_cspec=0, w_cindustry=5, w_jdesc=0,
                            w_jtitle=0, w_ctype=1, w_age=2, w_csize=2)
-    person_phase_1.run_rank(hist_weight=0, dist_weight=1, top = 100)
+    person_phase_1.get_clusters()
+    person_phase_1.run_rank(hist_weight = 1, dist_weight=1, top = 100)
 
-    #Merge the 500 cids to cut down round 2 to only the top 500 companies.
+    #Merge the 100 cids to cut down round 2 to only the top 500 companies.
     c_phase_2_final = c_phase_2_final[c_phase_2_final['cid'].isin(person_phase_1.rank['cid'])]
 
     person_phase_2 = Career(company=c_phase_2_final, person=p_phase_2_final, job_history=j)
-    person_phase_2.run_cluster_kmeans(clusters = 10)
+    #person_phase_2.run_cluster_kmeans(clusters = 10)
     person_phase_2.get_distance(industry_config=config, phase=2, w_cdesc=1, w_cspec=0, w_cindustry=0, w_jdesc=3,
                            w_jtitle=1, w_ctype=0, w_age=0, w_csize=0)
     top = 10
-    person_phase_2.run_rank(hist_weight=0, dist_weight=1, top = top)
+
+    #below grabs the defined clusters from the original clustering event and uses them for ranking in the second.
+    person_phase_2.distance['cluster'] = pd.merge(person_phase_1.distance[['cid','cluster']], person_phase_2.distance,
+                                                  on='cid')['cluster']
+
+    person_phase_2.run_rank(hist_weight = 0, dist_weight=1, top = top)
     #person_phase_2.normalize_score_on_job(top = top)
     person_phase_2.rank['jobflag'][person_phase_2.rank['jobflag'] == 1] = "Position Available!"
     person_phase_2.rank['jobflag'][person_phase_2.rank['jobflag'] == 0] = ""
@@ -318,16 +336,18 @@ def run_master_ranker(person, history):
 #            'age': 2,
 #            'industry': 'Internet',
 #           'size': 2,
-#            'resume': 'data/resume/DonaldVetal_Resume.txt',
+#            'resume': 'data/resumesource/DonaldVetal_Resume.txt',
 #            'type': 1
 #        }
+#some_history = [{'company': 'Time Warner Inc.','rating': 1},
+#                {'company': 'Boozie','rating': 5},
+#                {'company': 'Novell', 'rating': 5}]
 #ADRIANO.WEIHMAYER.ALMEIDA.txt
 #Resume_Amy_Vetal.txt
 
 #some_history = [{'company': 1123, 'rating': 4}, {'company': 5349578, 'rating': 5}]
 #result = run_master_ranker(person= some_person, history = some_history)
 #print 'done'
-
 
 
 
