@@ -24,20 +24,13 @@ def fillForm():
         resume = secure_filename(person.resume.data.filename)
         file_path = os.path.join(app.config['UPLOAD_FOLDER'] + resume)
         person.resume.data.save(file_path)
-        #below is what the input to run_master_ranker will look like
-        #I will need to potentially build something that connects a chosen
-        #name to an ID. Haven't done this yet
-        #some_history = [{'company': person.data['workplace1'],
-        #                 'rating': int(person.data['workrating1'])},
-        #                {'company': person.data['workplace2'],
-        #                 'rating': int(person.data['workrating2'])},
-        #                {'company': person.data['workplace3'],
-        #                 'rating': int(person.data['workrating3'])}
-        #                ]
-        #the test for now: ACTUAL list of company names are in the csv in finalframe. Also loaded into the Career object
-        # on load in clustertext.py.  I can worry about this I think I just need the example to work.
-        some_history = [{'company': 1123, 'rating': 4}, {'company': 5349578, 'rating': 5}]
-
+        some_history = [{'company': person.data['workplace1'],
+                                 'rating': int(person.data['workrating1'])},
+                                {'company': person.data['workplace2'],
+                                 'rating': int(person.data['workrating2'])},
+                                {'company': person.data['workplace3'],
+                                 'rating': int(person.data['workrating3'])}
+                                ]
         some_person = {
             'title': person.data['title'],
             'age': int(person.data['age']),
@@ -46,12 +39,9 @@ def fillForm():
             'resume': (file_path),
             'type': int(person.data['type'])
         }
-        result = ct.run_master_ranker(person = some_person, history = some_history)
+        result = ct.run_master_ranker(person=some_person, history=some_history)
         result = list(result['cname'])
         session['results'] = result
-
-
-
         return redirect('/result')
     return render_template('person.html', title='Outmaneuver', form=person)
 

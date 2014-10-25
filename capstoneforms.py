@@ -9,7 +9,7 @@ with open('data/industrycodes.csv') as industrydata:
 one_list = map(lambda x: x[2], person)
 INDUSTRY = zip(one_list,one_list)
 INDUSTRY.pop(-1)
-
+INDUSTRY.sort()
 
 
 class Person(Form):

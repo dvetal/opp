@@ -325,7 +325,7 @@ def run_master_ranker(person, history):
     person_phase_2 = Career(company=c_phase_2_final, person=p_phase_2_final, job_history=j)
 
     #person_phase_2.run_cluster_kmeans(clusters = 10)
-    person_phase_2.get_distance(industry_config=config, phase=2, w_cdesc=8, w_cspec=0, w_cindustry=0, w_jdesc=10,
+    person_phase_2.get_distance(industry_config=config, phase=2, w_cdesc=20, w_cspec=0, w_cindustry=0, w_jdesc=30,
                                 w_jtitle=6, w_ctype=0, w_age=0, w_csize=0)
     top = 10
 

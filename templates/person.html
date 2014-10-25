@@ -3,7 +3,10 @@
 {% block content %}
 	<head>
 		<title>Outmaneuver</title>
+		<link rel="stylesheet" href="/data/templates/styles.css" />
 	</head>
+
+		<h1>Outmaneuver</h1>
 		<form class="form form-horizontal" action="/" method="post" role="form" name="person" enctype="multipart/form-data">
 			{{ form.hidden_tag() }}
 			{{ wtf.form_errors(form, hiddens="only") }}
@@ -53,9 +56,9 @@
 				{{ form.workplace1 }}
 				{% for error in form.workplace1.errors %}
 					<span style="color: red;">[{{ error }}]</span>
-				{% endfor %}<br>
+				{% endfor %}
 
-				Rating:<br>
+				Rating:
 				{{ form.workrating1 }}
 				{% for error in form.workplace1.errors %}
 					<span style="color: red;">[{{ error }}]</span>
@@ -65,9 +68,9 @@
 				{{ form.workplace2 }}
 				{% for error in form.workplace2.errors %}
 					<span style="color: red;">[{{ error }}]</span>
-				{% endfor %}<br>
+				{% endfor %}
 
-				Rating:<br>
+				Rating:
 				{{ form.workrating2 }}
 				{% for error in form.workplace2.errors %}
 					<span style="color: red;">[{{ error }}]</span>
@@ -77,19 +80,17 @@
 				{{ form.workplace3 }}
 				{% for error in form.workplace3.errors %}
 					<span style="color: red;">[{{ error }}]</span>
-				{% endfor %}<br>
+				{% endfor %}
 
-				Rating:<br>
+				Rating:
 				{{ form.workrating3 }}
 				{% for error in form.workplace3.errors %}
 					<span style="color: red;">[{{ error }}]</span>
 				{% endfor %}<br>
-
-				<!-- This is where I'm testing the auto-complete code with no success -->
-				<div id="the-basics">
-  					<input class="typeahead" type="text" placeholder="States of USA">
-				</div>
 			</p>
 			<p><input type="submit" value="Submit" /></p>
 		</form>
+	<div id="the-basics">
+        <input class="typeahead" type="text" placeholder="States of USA">
+    </div>		
 {% endblock %}
