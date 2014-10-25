@@ -1,1 +1,14 @@
-s
+body {
+	background-color: #FFFFFF;
+	background-image: url("/static/Europa Full Sails and Stunsails.jpg");
+	background-position: center;
+}
+
+h1 { 	font-family: verdana;
+		color: #00004C;
+		font-size: 30px; 
+		text-align: left}
+
+p {		font-family: verdana;
+	    background-color: #C5D6E6
+}
